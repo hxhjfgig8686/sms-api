@@ -40,7 +40,7 @@ if (isset($routes[$endpoint])) {
     require $routes[$endpoint];
 } else {
     // صفحة الترحيب
-    require_once 'api/functions.php';
+    require_once __DIR__ . '/api/functions.php';';
     sendResponse([
         'name' => 'SMS API Server',
         'version' => '1.0.0',
