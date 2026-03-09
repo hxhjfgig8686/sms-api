@@ -2,10 +2,10 @@
 // api/config.php
 
 // إعدادات قاعدة البيانات
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'sms_api');
+define('DB_HOST', 'mysql.railway.internal');
+define('DB_NAME', 'railway');
 define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_PASS', 'HqBrOJXktSNyAQJAZyOtQdhDwolvHlHv');
 
 // إعدادات عامة
 define('API_DEBUG', true);
